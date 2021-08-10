@@ -4,9 +4,9 @@ var authConfig = {
   version: "1.1.2", // 程序版本
   theme: "acrou",
   // 强烈推荐使用自己的 client_id 和 client_secret
-  client_id: "202264815644.apps.googleusercontent.com",
-  client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  refresh_token: "", // 授权 token
+  client_id: "304545869054-5m1g8ptnlfnlrca8op06gpqirrs6kjou.apps.googleusercontent.comm",
+  client_secret: "j-rMHD7MjxIUnRDG5J8t3YgE",
+  refresh_token: "1//06dt9_tRHzt1KCgYIARAAGAYSNwF-L9IrOrculpDhtl6SEZCY7l_7KTe6pP9GStlwbxQONsEABneSt6FcJ8kiTn0P8qj0gVurCdg", // 授权 token
   /**
    * 设置要显示的多个云端硬盘；按格式添加多个
    * [id]: 可以是 团队盘id、子文件夹id、或者"root"（代表个人盘根目录）；
@@ -22,10 +22,11 @@ var authConfig = {
    */
   roots: [
     {
-      id: "",
-      name: "TeamDrive",
-      pass: "",
+      id: "0AM-Q25JwJpD_Uk9PVA",
+      name: "rquanxiao@gmail.com",
+      pass: "606521Aa",
     },
+    /**
     {
       id: "root",
       name: "PrivateDrive",
@@ -38,6 +39,7 @@ var authConfig = {
       name: "folder1",
       pass: "",
     },
+    **/
   ],
   default_gd: 0,
   /**
